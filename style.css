@@ -1,8 +1,65 @@
-{
-    margin: 2;
+{ 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* index */
+
+    
+body {
+    font-size: 16px;
+    padding: 10px;
+    background-color: beige;
+    line-height: 1.6;
+}
+.seccion{
+    display: grid;
+    text-align: center;
+    vertical-align: auto;
+    margin: 50px;
+    padding: 50px;
+    background-color: burlywood;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Preferido{
+    background-color: greenyellow;
+    color: black;
+    margin: 50px;
+    margin-bottom: 70px;
+    padding: 30px;
+}
+.image{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    object-fit: cover;
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+.item5{
+    grid-area: footer;
+    background-color: grey;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    padding: 5px;
+}
+
 
 .mensaje{
     padding: 10px;
@@ -12,35 +69,8 @@
 
 }
 
-
-body {
-    font-size: 16px;
-    padding: 10px;
-    background-color: beige;
-}
 .nav{
     background-color: chocolate;
-}
-
-@media (min-width: 600px) {
-    body {
-        font-size: 18px;
-        padding: 20px;
-    }
-}
-
-@media (min-width: 1024px) {
-    body {
-        font-size: 20px;
-        padding: 30px;
-    }
-}
-
-.mensaje {
-    margin: 50px;
-    margin-bottom: 50px;
-   margin-top: 100px;
-   background-color: cadetblue;
 }
 
 .textarea ::before {
@@ -79,22 +109,8 @@ body {
 .btn:active {
     background-color: chocolate;
 }
-.image {
-    width: 100px;
-    height: 70px;
-}
 
-.tabla {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.product{
-    flex-grow: 1;
-    flex-basis: 300px;
-
-}
+/*  */
 
 .titulo{
     color: black;
@@ -130,15 +146,6 @@ body {
     white-space: pre;
 }
 
-.glass{
-    width: 300px;
-    height: 200px;
-}
-
-.Preferido{
-    margin: 50px;
-    margin-bottom: 70px;
-}
 
 .contenedor-flex {
   display: flex;
@@ -153,15 +160,41 @@ body {
     background-size: cover;
 }
 
-.video {
-    width: 500px;
-    height: 400px;
-
+/* mas.html */
+.glass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
 }
-
 .lg{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     text-align: center;
     text-shadow: 2px 2px 4px gray;
+    margin: 50px;
+    padding: 30px;
+}
+
+.video {
+    display: grid;
+    place-items: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+        padding: 30px;
+    }
 }
