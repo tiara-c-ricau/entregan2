@@ -110,7 +110,7 @@ body {
     background-color: chocolate;
 }
 
-/*  */
+/* novedades.html */
 
 .titulo{
     color: black;
@@ -132,7 +132,7 @@ body {
 .imagen{
     object-fit: cover;
 }
-
+/* contacto.html */
 .form{
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
@@ -153,7 +153,7 @@ body {
   justify-content: space-around; 
   align-items: center;
 }
-
+/* menu.html */
 .fondo{
     background-image: "https://i.blogs.es/9b86b1/keynote-iphone-se-4/1366_2000.jpeg"; 
     background-repeat: no-repeat;
